@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* TILES */
+
+body {
+    background-color: cadetblue;
+}
+
+#container {
+    width: 1270px;
+    margin: auto;
+    background-color: #252525;
+}
+
+header {
+    width: 1250px;
+    height: 60px;
+    margin: 10px 10px 0 10px;
+    background-color: aquamarine;
+}
+
+div {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+}
+
+.no-m {
+	margin: 0;
+}
+
+.l1h1 {
+	width: 200px;
+	height: 200px;
+}
+
+.l2h1 {
+	width: 410px;
+	height: 200px;
+}
+
+.l2h2 {
+	width: 410px;
+	height: 410px;
+}
+
+
+
+/* 1er bloc */
+
+#tile1 {
+	width: 420px;
+	height: 626px;
+	padding: 10px 0 10px 10px;
+	margin: 0;
+	background-color: #252525;
+}
+
+#tile1 .bl {
+	margin: 10px 5px 0 0;
+}
+
+#tile1 .br {
+	margin: 10px 0 0 5px;
+}
+
+/* 2eme bloc */
+
+#tile2 {
+	width: 420px;
+	height: 626px;
+	padding: 10px 0 10px 0;
+	margin: 0;
+	background-color: #252525;
+}
+
+#tile2 .tl {
+	margin: 0 5px 10px 0;
+}
+
+#tile2 .tr {
+	margin: 0 0 10px 5px;
+}
+
+/* 3eme bloc */
+
+#tile3 {
+    width: 420px;
+    height: 626px;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    background-color: #252525;
+}
+
+#tile3 .tl {
+    margin: 10px 5px 10px 0;
+}
+
+#tile3 .tr {
+    margin: 10px 0 10px 5px;
+}
+
+#tile3 .bl {
+    margin: 0 5px 0 0;
+}
+
+#tile3 .br {
+    margin: 0 0 0 5px;
+}
+
+/* COLORS */
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.purple {
+	background-color: purple;
+}
+

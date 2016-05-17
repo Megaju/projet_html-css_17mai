@@ -5,6 +5,25 @@
 
 /* TILES */
 
+body {
+    background-color: #252525;
+}
+
+#container {
+    display: block;
+    width: 1270px;
+    margin: auto;
+    background-color: #252525;
+}
+
+header {
+    width: 1250px;
+    height: 60px;
+    margin: 10px 10px 0 10px;
+    padding: 10px 0;
+    background-color: #37bbd2;
+}
+
 div {
 	display: inline-block;
 	vertical-align: top;
@@ -15,6 +34,26 @@ div {
 	margin: 0;
 }
 
+.l1h1 {
+    position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+.l2h1 {
+    position: relative;
+	width: 410px;
+	height: 200px;
+}
+
+.l2h2 {
+    position: relative;
+	width: 410px;
+	height: 410px;
+}
+
+
+
 /* 1er bloc */
 
 #tile1 {
@@ -23,22 +62,6 @@ div {
 	padding: 10px 0 10px 10px;
 	margin: 0;
 	background-color: #252525;
-}
-
-.l1h1 {
-	width: 200px;
-	height: 200px;
-}
-
-.l2h1 {
-	width: 400px;
-	height: 200px;
-	margin: 0 0 10px 0;
-}
-
-.l2h2 {
-	width: 410px;
-	height: 410px;
 }
 
 #tile1 .bl {
@@ -67,24 +90,95 @@ div {
 	margin: 0 0 10px 5px;
 }
 
+/* 3eme bloc */
+
+#tile3 {
+    width: 420px;
+    height: 626px;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    background-color: #252525;
+}
+
+#tile3 .tl {
+    margin: 10px 5px 10px 0;
+}
+
+#tile3 .tr {
+    margin: 10px 0 10px 5px;
+}
+
+#tile3 .bl {
+    margin: 0 5px 0 0;
+}
+
+#tile3 .br {
+    margin: 0 0 0 5px;
+}
+
 /* COLORS */
 
-.red {
-	background-color: red;
+.white01 {
+    background-color: #f5f5f5;
 }
 
-.blue {
-	background-color: blue;
+.pink01 {
+    background-color: #fa8a7e;
 }
 
-.green {
-	background-color: green;
+.purple01 {
+    background-color: #b483ff;
 }
 
-.yellow {
-	background-color: yellow;
+.green01 {
+    background-color: #b7f6c9;
 }
 
-.purple {
-	background-color: purple;
+.yellow01 {
+    background-color: #fbff86;
 }
+
+.blue01 {
+    background-color: #7efeff;
+}
+
+/* PARAGRAPHES DANS LES SECTIONS */
+
+.pBlack p {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    bottom: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.white01.pBlack p {
+    background-color: #999999;
+}
+
+.pink01.pBlack p {
+    background-color: #f8504d;
+}
+
+.purple01.pBlack p {
+    background-color: #7f53c6;
+}
+
+.green01.pBlack p {
+    color: black;
+    background-color: #35eab5;
+}
+
+.yellow01.pBlack p {
+    color: black;
+    background-color: #fbed1a;
+}
+
+.blue01.pBlack p {
+    background-color: #3ea8f6;
+}
+
